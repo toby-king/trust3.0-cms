@@ -1,5 +1,5 @@
 ---
-title: Welcome to the Trust3.0 Blog
+title: Welcome to the Trust3.0 Blog 2
 description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
   possimus eum ipsam perferendis quaerat itaque vitae, corporis est quis maxime
   nihil ipsa adipisci quod hic vero eius, deserunt numquam ea.
