@@ -11,9 +11,9 @@ layout: blog
                 <div class="col-lg-4">
                     <a href="{{ post.url | url }}">
                         <div class="post mb-4">
-                            <img src="{{ post.thumbnail }}" alt="">
+                            <img src="{{ post.data.thumbnail }}" alt="">
                             <div class="post-content">
-                                <h2>
+                                <h3>
                                     <a href="{{ post.url | url }}">
                                         {% if post.data.title %}
                                             {{ post.data.title }}
@@ -21,21 +21,21 @@ layout: blog
                                             Untitled
                                         {% endif %}
                                     </a>
-                                </h2>
+                                </h3>
                                 <p>
-                                    <time>
+                                    <time class="post-date">
                                         {{ post.date | readableDate }}
                     
                                     </time>
                                 </p>
                                 {% if post.data.description %}
-                                    <p class="text-lg text-gray-500 mb-3">
+                                    <p>
                                         {{ post.data.description }}
                                     </p>
                                 {% endif %}
                     
                                 <p>
-                                    <a href="{{ post.url | url }}" class="text-indigo-500 font-bold text-lg">
+                                    <a href="{{ post.url | url }}" style="color:#00DC7F;">
                                         Read more →
                                     </a>
                                 </p>

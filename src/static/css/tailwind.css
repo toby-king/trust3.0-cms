@@ -226,20 +226,21 @@ li::marker {
   text-decoration: none;
 }
 .post {
-  border: solid 1px #cecece;
   padding: 0;
   overflow: hidden;
   transition: .3s ease-in-out;
-  border-radius: 10px;
-}
-.post:hover {
-  transform: scale(1.05);
 }
 .post img {
   max-width: 100%;
 }
 .post-content {
   padding: 1rem;
+}
+.post-content a {
+  font-family: "Montserrat Bold";
+}
+.post-date {
+  color: #757575;
 }
 .email-form {
   border-radius: 0;
@@ -272,7 +273,7 @@ li::marker {
   width: 25%;
 }
 .footer-menu {
-  max-width: 10vw;
+  max-width: 15vw;
   margin: 0 auto;
 }
 .footer-menu a {
@@ -282,13 +283,34 @@ li::marker {
   color: #00DC7F !important;
 }
 .footer {
-  border-top: 1px solid #000;
+  border-top: 1px solid #afafaf;
   color: #000;
+  margin-right: 0;
 }
 .footer p {
-font-size: 1rem;
-max-width: 75vw;
-margin: 0 auto;
+  font-size: 1rem;
+  max-width: 75vw;
+  margin: 0 auto;
+}
+.blog-header {
+  width: 100vw;
+  height: 35vh;
+  object-fit: cover;
+}
+.blog .title {
+  border-left: 15px #00DC7F solid;
+  padding-left: 15px;
+}
+.blog-post {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+.blog-post img {
+  max-width: 100%;
+}
+.blog-post p {
+  font-size: 1.2rem;
 }
 
 /* Animations */

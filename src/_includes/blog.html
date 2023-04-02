@@ -1,12 +1,19 @@
 ---
-title: Our Blog
+title: Latest Posts
 layout: default
 ---
 
-<div class="container max-w-3xl mt-6 px-6">
+<picture>
+    <source type="image/webp" srcset="/static/img/webp/header.webp">
+    <source type="image/png" srcset="/static/img/header.png">
+    <img src="static/img/header.png" alt="header" class="blog-header">
+</picture>
+<div class="container-fluid mt-3">
+    <div class="page-content blog">
+        <div class="title mb-4">
+            <h2>{{title}}</h2>
+        </div>
 
-    <h1 class="font-bold text-5xl">{{title}}</h1>
-
-    {{ content | safe }}
-
+        {{ content | safe }}
+    </div>
 </div>

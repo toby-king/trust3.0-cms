@@ -1,21 +1,31 @@
 ---
 layout: default
-prism: true
 ---
 
-<div class="container max-w-4xl mt-6  px-6">
-    <div class="pb-5 mb-5 border-b border-gray-100">
-        <h1 class="font-bold text-5xl">{{title}}</h1>
-        <p class="text-center text-base leading-6 font-medium text-gray-500">
-            <time> {{ date | readableDate }}
-                by
-                <a>{{ author }}</a>
 
-            </time>
-        </p>
-
+<div class="blog-post">
+    <h1 class="text-center mt-3">{{title}}</h1>
+    <p class="post-date text-center">{{date | readableDate}}</p>
+    <div class="thumbnail-wrapper text-center mb-5">
+        <img src="{{thumbnail}}" alt="Post Thumbnail">
     </div>
-    <article class="prose lg:prose-xl my-4 mx-auto">
-        {{ content | safe }}</article>
-
+    {{ content | safe}}
+</div>
+<div class="text-center">
+    <picture>
+        <source type="image/webp" srcset="/static/img/webp/trust3.webp">
+        <source type="image/png" srcset="/static/img/trust3.png">
+        <img src="static/img/trust3.png" alt="Trust3.0 Logo" class="footer-logo">
+    </picture>
+</div>
+<div class="row footer-menu text-center">
+    <div class="col-lg-4">
+        <a href="/">Home</a>
+    </div>
+    <div class="col-lg-4">
+        <a href="/events">FAQs</a>
+    </div>
+    <div class="col-lg-4">
+        <a href="/blog" class="active">Blog</a>
+    </div>
 </div>
