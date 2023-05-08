@@ -38,4 +38,4 @@ Our experts will uncover the challenges brands face in building trusted relation
 
 Please sign up below and join us for an insightful and informative event. 
 
-[R﻿eserve your seat here...](bit.ly/3LdtI17)
+[R﻿eserve your seat here...](https://bit.ly/3LdtI17)
