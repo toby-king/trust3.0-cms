@@ -4,11 +4,11 @@ description: "Trust 3.0 has teamed up with award-winning global brand experience
   agency Imagination to host a series of virtual roundtables kicking off on June
   8th 2023 at 2.15pm GMT. "
 date: 2023-05-06T09:01:43.738Z
-thumbnail: /static/img/eventbrite-header-image-3.jpg
+thumbnail: /static/img/eventbrite-image.jpg
 ---
 **Overview:**
 
-Trust 3.0 has teamed up with award-winning global brand experience agency Imagination to host a series of virtual roundtables kicking off on June 8th 2023 at 2.15pm GMT. 
+Trust 3.0 has teamed up with award-winning global brand experience agency Imagination to host a series of virtual roundtables kicking off on June 8th 2023 at 2.15pm BST.
 
 Trust 3.0 and Imagination are jointly convening industry experts to create discourse around the best ways to build equitable and ethical data processes that are fit for purpose. 
 
