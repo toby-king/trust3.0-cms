@@ -290,7 +290,8 @@ li::marker {
 .footer {
   border-top: 1px solid #afafaf;
   color: #000;
-  margin-right: 0;
+  max-width: 80vw;
+  margin: 0 auto;
 }
 .footer p {
   font-size: 1rem;
