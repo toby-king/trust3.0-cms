@@ -4,7 +4,7 @@ description: "On the 8th of June, Trust 3.0 teamed up with award-winning global
   experience design company  Imagination to host our first-ever co-hosted
   virtual roundtable. "
 date: 2023-07-28T07:54:51.256Z
-thumbnail: /static/img/screenshot-2023-07-28-at-09.02.32.png
+thumbnail: /static/img/screenshot-2023-07-28-at-09.11.39.png
 ---
 On the 8th of June, Trust 3.0 teamed up with award-winning global experience design company  Imagination to host our first-ever co-hosted virtual roundtable. 
 
