@@ -267,35 +267,33 @@ path: home
                     </div>
                     <div class="posts-wrapper">
                         <div class="row">
-                            <div class="col-md-4 post mx-2 mb-4">
-                                <a href="/posts/designing-for-transparency-building-customer-relationships-in-the-age-of-ai/">
-                                    <img src="/static/img/eventbrite-header-image-3.jpg" alt="Post Thumbnail">
-                                    <div class="post-content">
-                                        <h2>Designing For Transparency: Building Customer Relationships In The Age Of AI</h2>
-                                        <p>Trust 3.0 has teamed up with award-winning global brand experience agency Imagination to host a series of virtual roundtables kicking off on June 8th 2023 at 2.15pm GMT.</p>
+                            {% set postslist = collections.post %}
+
+                            {% for post in postslist | reverse %}
+                                {% if loop.index0 < 3 %}
+                                    <div class="col-md-4 post mx-2 mb-4">
+                                        <a href="{{ post.url | url }}">
+                                            <div class="post mb-4">
+                                                <img src="{{ post.data.thumbnail }}" alt="">
+                                                <div class="post-content">
+                                                    <h2>
+                                                        <a href="{{ post.url | url }}">
+                                                            {% if post.data.title %}
+                                                                {{ post.data.title }}
+                                                            {% else %}
+                                                                Untitled
+                                                            {% endif %}
+                                                        </a>
+                                                    </h2>
+                                                    <p>{{ post.data.description }}</p>
+                                                </div>
+                                            </div>
+                                        </a>
                                     </div>
-                                </a>
-                            </div>
-                            <!--<div class="col-md post mx-2 mb-4">
-                                <a href="/posts/welcome-to-the-trust3-0-blog-1/">
-                                    <img src="/static/img/meta-img.jpg" alt="">
-                                    <div class="post-content">
-                                        <h2>Welcome to the Trust3.0 Blog 2</h2>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum possimus eum ipsam perferendis quaerat itaque vitae, corporis est quis maxime nihil ipsa adipisci quod hic vero eius, deserunt numquam ea.</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md post mx-2 mb-4">
-                                <a href="/posts/welcome-to-the-trust3-0-blog/">
-                                    <img src="/static/img/meta-img.jpg" alt="">
-                                    <div class="post-content">
-                                        <h2>Welcome to the Trust3.0 Blog</h2>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum possimus eum ipsam perferendis quaerat itaque vitae, corporis est quis maxime nihil ipsa adipisci quod hic vero eius, deserunt numquam ea.</p>
-                                    </div>
-                                </a>
-                            </div>
+                                {% endif %}
+                            {% endfor %}
                         </div>
-                    </div>-->
+                    </div>
                 </div>
                 <div class="contact-wrapper mt-5 text-center">
                     <h2>Keep Up To Date</h2>
