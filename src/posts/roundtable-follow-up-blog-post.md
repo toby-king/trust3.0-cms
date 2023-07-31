@@ -12,7 +12,7 @@ We were joined by a host of leading industry experts to debate critical data pri
 
 Our panellists consisted of experts with cross-industry backgrounds who are leaders in data privacy, technology and political philosophy helping to develop the frameworks and processes for some of the largest organisations in the world.
 
-**[D﻿ownload the Report Here](/reports/building-customer-relationships-in-the-age-of-ai.pdf)**
+**[D﻿ownload the Report Here](https://drive.google.com/file/d/1k2utHvdaIwAJLBdiDtZQupn8BL7QCGaL/view)**
 
 ### **Panellists:** 
 
@@ -59,4 +59,4 @@ Imagination was awarded silver at Campaign’s Global Brand Experience Agency of
 
 For more information, please visit [imagination.com](https://imagination.com/).
 
-**[D﻿ownload the Report Here](/building-customer-relationships-in-the-age-of-ai.pdf)**
+**[D﻿ownload the Report Here](https://drive.google.com/file/d/1k2utHvdaIwAJLBdiDtZQupn8BL7QCGaL/view)**
