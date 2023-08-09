@@ -1,5 +1,5 @@
 ---
-title: "TikTok: Breaching Children's Data Privacy"
+title: TikTok Faces Fine For Breaching Children's Data Privacy
 description: The popular short-form video platform TikTok looks set to face a
   privacy fine before September 2023...
 date: 2023-08-09T10:30:46.266Z
