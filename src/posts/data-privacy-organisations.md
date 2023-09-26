@@ -1,9 +1,7 @@
 ---
 title: Data Privacy Organisations
 description: "As a society, we are facing one of the most pressing challenges of
-  the last century. That being ownership, control and management of citizen’s
-  data. Along with Trust 3.0 there are a number of organisations helping to
-  address the problem and develop equitable solutions for a safer society. "
+  the last century. "
 date: 2023-09-26T17:22:19.440Z
 thumbnail: /static/img/tim-mossholder-0zrt0bqysmw-unsplash.jpg
 ---
