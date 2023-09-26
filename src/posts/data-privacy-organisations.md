@@ -204,11 +204,23 @@ Website: <https://opensource.org/> 
 
 Website: <https://www.accessnow.org/> 
 
-**Cyber Peace Institute**
+**Cyber Peace Institute**[](https://www.ajl.org/)
 
 * The CyberPeace Institute a non governmental organization. We Assist, We Investigate, We Advocate to reduce the frequency and harm of cyberattacks on people’s lives worldwide.
 
 Website: <https://cyberpeaceinstitute.org/> 
+
+**Algorithmic Justice League**
+
+* The Algorithmic Justice League is an organization that combines art and research to illuminate the social implications and harms of artificial intelligence. AJL’s mission is to raise public awareness about the impacts of AI, equip advocates with empirical research to bolster campaigns, build the voice and choice of most impacted communities, and galvanize researchers, policymakers, and industry practitioners to mitigate AI bias and harms.
+
+W﻿ebsite:[ https://www.ajl.org/ ](https://www.ajl.org/)
+
+**F﻿or Humanity**
+
+* To examine and analyze the downside risks associated with the ubiquitous advance of AI & Automation. Further, to engage in risk mitigation, where possible, to ensure the optimal outcome… ForHumanity With the assistance of the ForHumanity Fellows, we developed Independent Audit and Governance of Contact Tracing. We are developing the larger work of Independent Audit of AI Systems to build an infrastructure of trust for the world's autonomous systems.
+
+Website: <https://forhumanity.center/>
 
 **Trust 3.0**
 
