@@ -29,7 +29,7 @@ Website: <https://iapp.org/> 
 
 Identity Theft Resource Center
 
-* * The Identity Theft Resource Center (ITRC) is a non-profit organization established in 1999 to minimize risk and mitigate the impact of identity compromise.
+* The Identity Theft Resource Center (ITRC) is a non-profit organization established in 1999 to minimize risk and mitigate the impact of identity compromise.
 
 Website: <https://www.idtheftcenter.org/> 
 
@@ -74,8 +74,6 @@ Foundation for Technology and Privacy Outreach
 * The Foundation for Technology and Privacy Outreach engages in educational initiatives aimed at increasing the public’s awareness of advances in technology, online privacy, and identity issues to ensure that fostering innovation and the promotion of consumer privacy becomes – and remains – a top priority for current and future generations.
 
 Website: <https://www.onlineprivacymatters.org/> 
-
-
 
 Electronic Privacy Information Center
 
@@ -125,15 +123,11 @@ Demand Progress
 
 Website: <https://demandprogress.org/> 
 
-
-
 NOYB
 
 * noyb is a non-profit organization aiming to close the gap between privacy laws and the reality of corporate practice. Europe already has stringent privacy and consumer protection laws but lacks effective enforcement of your digital rights. Our goal is to make privacy a reality for everyone.
 
 Website: <https://noyb.eu/en> 
-
-
 
 Privaterra
 
@@ -171,8 +165,6 @@ Derechos Digitales
 * La ONG Derechos Digitales fue fundada en enero de 2005. Entre sus objetivos más importantes está la protección y promoción de los derechos fundamentales en Internet; y reforzar una cultura más libre, sustentada en un derecho de autor equilibrado que permita un mayor acceso al conocimiento para todos los ciudadanos en el entorno digital.
 
 Website: <https://www.derechosdigitales.org/> 
-
-
 
 Datos Protegidos
 
