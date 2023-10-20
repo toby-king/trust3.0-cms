@@ -29,7 +29,7 @@ path: home
                         <li class="nav-item"><a class="nav-link" href="/pillars">Pillars</a></li>
                         <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
                         <li class="nav-item"><a class="nav-link" href="/faqs">FAQs</a></li>
-                        <li class="nav-item"><a class="nav-link btn btn-contact" href="mailto:hello@blksq-labs.com">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-contact" href="mailto:contact@trust30.org">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -199,6 +199,16 @@ path: home
                                 <p>Group CTO</p>
                                 <p>Imagination</p>
                             </div>
+                            <div class="col-6">
+                                <picture>
+                                    <source type="image/webp" srcset="/static/img/webp/trustees/adrianadumitrache.webp">
+                                    <source type="image/png" srcset="/static/img/trustees/adrianadumitrache.png">
+                                    <img src="static/img/trustees/adrianadumitrache.png" alt="Adriana Dumitrache" class="headshot">
+                                </picture>
+                                <p>Adriana Dumitrache</p>
+                                <p>1st Party Data Assets Manager</p>
+                                <p>Reckitt</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -244,13 +254,13 @@ path: home
                             </div>
                             <div class="col-6">
                                 <picture>
-                                    <source type="image/webp" srcset="/static/img/webp/trustees/adrianadumitrache.webp">
-                                    <source type="image/png" srcset="/static/img/trustees/adrianadumitrache.png">
-                                    <img src="static/img/trustees/adrianadumitrache.png" alt="Adriana Dumitrache" class="headshot">
+                                    <source type="image/webp" srcset="/static/img/webp/trustees/tsvetelinanastasov.webp">
+                                    <source type="image/png" srcset="/static/img/trustees/tsvetelinanastasov.png">
+                                    <img src="static/img/trustees/tsvetelinanastasov.png" alt="Tsvetelin Anastasov" class="headshot">
                                 </picture>
-                                <p>Adriana Dumitrache</p>
-                                <p>1st Party Data Assets Manager</p>
-                                <p>Reckitt</p>
+                                <p>Tsvetelin Anastasov</p>
+                                <p>Data Practice Lead and Growth Officer</p>
+                                <p>Think RevOps</p>
                             </div>
                         </div>
                     </div>
@@ -300,6 +310,20 @@ path: home
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-6">
+                                <picture>
+                                    <source type="image/webp" srcset="/static/img/webp/trustees/charliepickering.webp">
+                                    <source type="image/png" srcset="/static/img/trustees/charliepickering.png">
+                                    <img src="static/img/trustees/charliepickering.png" alt="Charlie Pickering" class="headshot">
+                                </picture>
+                                <p>Charlie Pickering</p>
+                                <p>Digital Strategist EMEA</p>
+                                <p>Cadastra</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="latest mt-5">
                     <div class="title mb-4">
@@ -312,7 +336,7 @@ path: home
 
                             {% for post in postslist | reverse %}
                                 {% if loop.index0 < 3 %}
-                                    <div class="col-md-4 post mx-2 mb-4">
+                                    <div class="col-md-4 post px-2 mb-4">
                                         <a href="{{ post.url | url }}">
                                             <div class="post mb-4">
                                                 <img src="{{ post.data.thumbnail }}" alt="">
