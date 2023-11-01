@@ -14,6 +14,8 @@ Heidi reflects on the lost trust in the digital age and highlights the significa
 
 When asked about what she would change in the digital world, Heidi expresses a desire to shift the mindset of enterprises regarding their entitlement to user data. She envisions a future where data is shared responsibly, emphasizing the need for a collective "we" mentality. To learn more about her work, Heidi can be found on LinkedIn, where she shares her insights and perspectives. 
 
+W﻿atch the Interview [HERE](https://youtu.be/xvEgPOjML_4)
+
 # Full Transcript:
 
 **Welcome to our new interview Series where we speak to champions of digital trust we're joined here today by Heidi Saas who are you Heidi and why should we trust you?**
