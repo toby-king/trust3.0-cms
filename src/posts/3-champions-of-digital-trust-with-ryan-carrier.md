@@ -1,5 +1,5 @@
 ---
-title: "#3 Champions of Digital Trust with Ryan Carrier"
+title: "#3 Champions of Digital Trust <> Ryan Carrier"
 description: "In the third episode of Champions of Digital Trust, Ryan Carrier,
   the Executive Director of the nonprofit ForHumanity, explains their mission. "
 date: 2023-11-05T15:00:45.321Z
