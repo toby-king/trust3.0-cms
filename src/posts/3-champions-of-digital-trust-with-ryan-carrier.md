@@ -13,7 +13,7 @@ They do this by checking these technologies like a teacher checks students' work
 
 They want to build trust and safety in the digital world by making sure these technologies are used responsibly. People can learn about their work on their website and take free courses to understand more about their practises.
 
-## W﻿atch the Interview [HERE](https://youtu.be/xvEgPOjML_4)
+## W﻿atch the Interview [HERE](https://youtu.be/-rX3CMJhXbc)
 
 # Transcript:
 
