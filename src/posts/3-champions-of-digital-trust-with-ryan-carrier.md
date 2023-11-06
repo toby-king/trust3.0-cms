@@ -17,7 +17,7 @@ They want to build trust and safety in the digital world by making sure these te
 
 # Transcript:
 
-#### *Welcome to our new interview Series where we speak to champions of digital trust who are you and why should we trust you?*
+#### *Welcome to our new interview series where we speak to champions of digital trust who are you and why should we trust you?*
 
 My name is Ryan carrier I'm the executive director of a nonprofit public charity called for Humanity for Humanity uh has a mission and the mission statement is to examine and analyze downside risk associated with AI algorithmic and autonomous systems accept those systems where they are and try to engage in the maximum amount of risk mitigations the theory being that if we can minimize the risk from these tools then we maximize the benefit for Humanity and that's a great reason to trust us is that we are well aligned with the people who would be giving that trust we are aiming to mitigate risk for All Humans from these tools. 
 
