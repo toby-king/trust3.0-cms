@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#fff">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Convening the brightest minds in privacy, AI, and technology to foster a global dialogue that champions responsible innovation for a safer society.">
+        <meta property="og:image" content="https://trvst3.org/static/img/meta-img.jpg">
+        <meta property="og:image:type" content="image/jpeg">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="280">
+
+        <title>Events - Trust3.0</title>
+
+        <link rel="icon" href="/static/img/icon.png">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <style>
+            @font-face {
+                font-family: "Montserrat";
+                src: url("/static/fonts/Montserrat-Regular.ttf");
+            }
+            @font-face {
+                font-family: "Montserrat Bold";
+                src: url("/static/fonts/Montserrat-Bold.ttf");
+            }
+            body {
+                background-color: #fff;
+            }
+            #banner {
+                margin: 2em;
+            }
+            .page-content {
+                width: 100%;
+                max-width: 75vw;
+                margin: 0 auto;
+                margin-top: 4em;
+            }
+            .logo {
+                max-width: 10vw;
+                min-width: 150px;
+                height: auto;
+                margin-bottom: 1.5em;
+            }
+            #title-container {
+                min-height: 50vh;
+            }
+            #title-text-container {
+                padding: 5rem;
+                color: #000;
+            }
+            #title-img-container {
+                background: url("/static/img/events/headerimg.jpg") no-repeat;
+                background-size: cover;
+                background-position: right;
+                overflow: hidden;
+                min-height: 50vh;
+            }
+            .placeholder {
+                max-height: 50vh;
+                width: auto;
+            }
+            @keyframes slideLeft {
+                100% { left: 11rem; }
+            }
+            @keyframes slideRight {
+                100% { right: 11rem; }
+            }
+            h1 {
+                font-family: "Montserrat Bold";
+                font-size: 2.5rem;
+                margin-bottom: 0;
+            }
+            h2 {
+                font-family: "Montserrat Bold";
+                font-size: 2.2rem;
+            }
+            p {
+                font-family: "Montserrat";
+                font-size: 1.2rem;
+                line-height: 1.8;
+            }
+            .accent {
+                color: #00A961;
+            }
+            .bg-accent {
+                background-color: #00A961;
+            }
+            .btn {
+                border: 1px solid #00A961;
+                color: #000;
+                border-radius: 0;
+                width: 100%;
+                height: auto;
+                font-size: 1.25rem;
+            }
+            .btn:hover {
+                color: #000;
+                background-color: #00A961;
+            }
+            .btn-contact {
+                color: #fff;
+            }
+            .col-md-6 {
+                overflow: hidden;
+            }
+            #overview {
+                background-color: #2f2f2f;
+                color: #fff;
+            }
+            #overview .col-md-6 {
+                padding: 5rem;
+            }
+            #overview .main {
+                padding-left: calc(var(--bs-gutter-x) * .5);
+            }
+            ul {
+                list-style-type: square;
+                font-family: "Montserrat";
+                font-size: 1.2rem;
+            }
+            li {
+                margin-bottom: 1rem;
+            }
+            #speakers .col-md-3 {
+                padding: 0;
+            }
+            #speakers .col-md-3 img {
+                width: 100%;
+            }
+            #speakers-container {
+                margin-bottom: 1rem;
+            }
+            #speakers .container p {
+                line-height: 1;
+            }
+            #feedback-text {
+                padding: 5rem;
+            }
+            .partner {
+                max-width: 12vw;
+                min-width: 12rem;
+            }
+            .footer {
+                border-top: 1px solid #000;
+                color: #000;
+            }
+            .footer p {
+            font-size: 1rem;
+            }
+
+            /*Animations*/
+
+            .animate-reveal-x {
+                opacity: 0;
+                -webkit-animation: revealX 1.5s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+                -moz-animation: revealX 1.5s ease-in 1 normal forwards;
+                -o-animation: revealX 1.5s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+                animation: revealX 1.5s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+                -webkit-animation-delay: 300ms;
+                -moz-animation-delay: 300ms;
+                -o-animation-delay: 300ms;
+                animation-delay: 300ms;
+            }
+            .animate-reveal-x.delay {
+                -webkit-animation-delay: 400ms;
+                -moz-animation-delay: 400ms;
+                -o-animation-delay: 400ms;
+                animation-delay: 400ms;
+            }
+            .animate-reveal-y {
+                opacity: 0;
+                -webkit-animation: revealY 1.5s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+                -moz-animation: revealY 1.5s ease-in 1 normal forwards;
+                -o-animation: revealY 1.5s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+                animation: revealY 1.5s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+                -webkit-animation-delay: 800ms;
+                -moz-animation-delay: 800ms;
+                -o-animation-delay: 800ms;
+                animation-delay: 800ms;
+            }
+            @-webkit-keyframes revealY {
+                0% {
+                opacity: 0;
+                -webkit-transform: translateY(100%);
+                    -moz-transform: translateY(100%);
+                    -o-transform: translateY(100%);
+                        transform: translateY(100%);
+                }
+                100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                    -moz-transform: translateY(0);
+                    -o-transform: translateY(0);
+                        transform: translateY(0);
+                }
+            }
+            @-moz-keyframes revealY {
+                0% {
+                opacity: 0;
+                -webkit-transform: translateY(100%);
+                    -moz-transform: translateY(100%);
+                    -o-transform: translateY(100%);
+                        transform: translateY(100%);
+                }
+                100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                    -moz-transform: translateY(0);
+                    -o-transform: translateY(0);
+                        transform: translateY(0);
+                }
+            }
+            @-o-keyframes revealY {
+                0% {
+                opacity: 0;
+                -webkit-transform: translateY(100%);
+                    -moz-transform: translateY(100%);
+                    -o-transform: translateY(100%);
+                        transform: translateY(100%);
+                }
+                100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                    -moz-transform: translateY(0);
+                    -o-transform: translateY(0);
+                        transform: translateY(0);
+                }
+            }
+            @keyframes revealY {
+                0% {
+                opacity: 0;
+                -webkit-transform: translateY(100%);
+                    -moz-transform: translateY(100%);
+                    -o-transform: translateY(100%);
+                        transform: translateY(100%);
+                }
+                100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                    -moz-transform: translateY(0);
+                    -o-transform: translateY(0);
+                        transform: translateY(0);
+                }
+            }
+
+            @-webkit-keyframes revealX {
+                0% {
+                opacity: 0;
+                -webkit-transform: translateX(100%);
+                    -moz-transform: translateX(100%);
+                    -o-transform: translateX(100%);
+                        transform: translateX(100%);
+                }
+                100% {
+                opacity: 1;
+                -webkit-transform: translateX(0);
+                    -moz-transform: translateX(0);
+                    -o-transform: translateX(0);
+                        transform: translateX(0);
+                }
+            }
+            @-moz-keyframes revealX {
+                0% {
+                opacity: 0;
+                -webkit-transform: translateX(100%);
+                    -moz-transform: translateX(100%);
+                    -o-transform: translateX(100%);
+                        transform: translateX(100%);
+                }
+                100% {
+                opacity: 1;
+                -webkit-transform: translateX(0);
+                    -moz-transform: translateX(0);
+                    -o-transform: translateX(0);
+                        transform: translateX(0);
+                }
+            }
+            @-o-keyframes revealY {
+                0% {
+                opacity: 0;
+                -webkit-transform: translateX(100%);
+                    -moz-transform: translateX(100%);
+                    -o-transform: translateX(100%);
+                        transform: translateX(100%);
+                }
+                100% {
+                opacity: 1;
+                -webkit-transform: translateX(0);
+                    -moz-transform: translateX(0);
+                    -o-transform: translateX(0);
+                        transform: translateX(0);
+                }
+            }
+            @keyframes revealX {
+                0% {
+                opacity: 0;
+                -webkit-transform: translateX(-100%);
+                    -moz-transform: translateX(-100%);
+                    -o-transform: translateX(-100%);
+                        transform: translateX(-100%);
+                }
+                100% {
+                opacity: 1;
+                -webkit-transform: translateX(0);
+                    -moz-transform: translateX(0);
+                    -o-transform: translateX(0);
+                        transform: translateX(0);
+                }
+            }
+
+            @media screen and (max-width: 1200px) {
+                #title-text-container, #overview .col-md-6, #feedback-text {
+                    padding: 2rem;
+                }
+            }
+            @media screen and (max-width: 768px) {
+                h1 {
+                    font-size: 1.8rem;
+                }
+                h2 {
+                    font-size: 1.5rem;
+                }
+                p {
+                    font-size: 1.1rem;
+                }
+                ul {
+                    font-size: 1.1rem;
+                }
+                .logo-container {
+                text-align: center;
+                }
+                .page-content {
+                margin-top: 2em;
+                }
+            }
+            @media screen and (max-width: 500px) {
+                #title-img-container {
+                    min-height: 25vh;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid" id="page">
+            <div class="page-content">
+                <div class="row" id="title-container">
+                    <div class="col-md-6 animate-reveal-x" id="title-text-container">
+                        <div class="logo-container">
+                            <a href="/">
+                                <picture>
+                                    <source type="image/webp" srcset="/static/img/webp/trust3-flat.webp">
+                                    <source type="image/png" srcset="/static/img/trust3-flat.png">
+                                    <img src="/static/img/trust3-flat.png" alt="Logo" class="logo">
+                                </picture>
+                            </a>
+                        </div>
+                        <h1>Designing For Transparency: Building Customer Relationships In The Age of AI</h1>
+                        <p class="accent">8th June 2023</p>
+                        <p class="m-0"><small>IN PARTNERSHIP WITH</small></p>
+                        <a href="https://imagination.com/">
+                            <picture>
+                                <source type="image/webp" srcset="/static/img/webp/events/imagination.webp">
+                                <source type="image/png" srcset="/static/img/events/imagination.png">
+                                <img src="/static/img/events/imagination.png" alt="Imagination Logo" class="partner">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="row animate-reveal-y" id="overview">
+                    <iframe width="100%" height="700" src="https://www.youtube.com/embed/-k9Uk2WPRYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="col-md-6">
+                        <h2 class="mb-3">Event Overview</h2>
+                        <p>Award-winning global brand experience agency Imagination has partnered with leading data-privacy advocacy group Trust 3.0 to launch a series of events, where we jointly convene industry experts to create discourse around the best ways to build sustainable and ethical ecosystems that are fit for purpose.</p>
+                        <p>In the last 12 months, we have witnessed data, ML and AI leap into the spotlight and our collective psyche, which could prove to be one of the most fundamental shifts in our generation.</p>
+                        <p>The jump from niche interest to popular culture highlights the fact that the technology underpinning this sector goes well beyond the purely technical, and instead, has a deep impact on society, politics, geopolitics and ethics. Yet it is a complicated, technical, rapidly evolving world that can be confusing even for practitioners in the space.</p>
+                        <p>Our experts will uncover the challenges brands face in building trusted relationships with consumers, provide invaluable first-hand insights, and aim to offer actionable next steps to ensure best practices.</p>
+                    </div>
+                    <div class="col-md-6 main">
+                        <h2 class="mb-3">Topics Covered</h2>
+                        <ul class="mb-5">
+                            <li>Explicit Vs. Implicit Consent</li>
+                            <li>Convenience Masquerading As Data Hack</li>
+                            <li>Data Breaches</li>
+                            <li>Ethical Innovation</li>
+                        </ul>
+                        <p><b>Please join us for an insightful and informative event.</b></p>
+                        <p>2.15pm - Webinar Open</p>
+                        <p>2.30pm - Initial Address</p>
+                        <p>2.35pm - Keynote</p>
+                        <p>2.45pm - Introduction to Imagination & Trust</p>
+                        <p>2.50pm - Roundtable: Building trust using a transparent data relationship</p>
+                        <p>3.20pm - Q&A</p>
+                        <p>3.30pm - Closing Statement</p>
+                        <p>3.35pm - Finish</p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <h2 class="text-white mt-5 mb-3">Speakers</h2>
+                </div>
+                <div class="row" id="speakers">
+                    <div class="col-md-3">
+                        <picture>
+                            <source type="image/webp" srcset="/static/img/webp/events/antonchristodoulou.webp">
+                            <source type="image/jpg" srcset="/static/img/events/antonchristodoulou.jpg">
+                            <img src="/static/img/events/antonchristodoulou.jpg" alt="Anton Christodoulou">
+                        </picture>
+                        <div class="container mt-4">
+                            <p class="accent mb-1">Anton Christodoulou</p>
+                            <p class="mb-1">Group Chief Technology Officer</p>
+                            <p>Imagination</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <picture>
+                            <source type="image/webp" srcset="/static/img/webp/events/lydiaknab.webp">
+                            <source type="image/jpg" srcset="/static/img/events/lydiaknab.jpg">
+                            <img src="/static/img/events/lydiaknab.jpg" alt="Lydia Knab">
+                        </picture>
+                        <div class="container mt-4">
+                            <p class="accent mb-1">Lydia Knab</p>
+                            <p class="mb-1">Global Data Privacy Lead Specialty Care</p>
+                            <p>Sanofi</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <picture>
+                            <source type="image/webp" srcset="/static/img/webp/events/adrianadumitrache.webp">
+                            <source type="image/jpg" srcset="/static/img/events/adrianadumitrache.jpg">
+                            <img src="/static/img/events/adrianadumitrache.jpg" alt="Adriana Dumitrache">
+                        </picture>
+                        <div class="container mt-4">
+                            <p class="accent mb-1">Adriana Dumitrache</p>
+                            <p class="mb-1">1st Party Data Assets Manager</p>
+                            <p>Reckitt</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <picture>
+                            <source type="image/webp" srcset="/static/img/webp/events/angelikasharygina.webp">
+                            <source type="image/jpg" srcset="/static/img/events/angelikasharygina.jpg">
+                            <img src="/static/img/events/angelikasharygina.jpg" alt="Angelika Sharygina">
+                        </picture>
+                        <div class="container mt-4">
+                            <p class="accent mb-1">Angelika Sharygina</p>
+                            <p>Lead Co-Creator Digital Information Aid</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5" id="feedback">
+                    <div class="col-md-6 p-0">
+                        <picture>
+                            <source type="image/webp" srcset="/static/img/webp/events/missionimg.webp">
+                            <source type="image/jpg" srcset="/static/img/events/missionimg.jpg">
+                            <img src="/static/img/events/missionimg.jpg" alt="Conference" class="placeholder">
+                        </picture>
+                    </div>
+                    <div class="col-md-6 bg-accent text-white" id="feedback-text">
+                        <h2 class="mb-4">Our Mission</h2>
+                        <p>To convene the brightest minds in privacy, AI, and technology to foster a global dialogue that
+                            champions responsible innovation for a safer society.</p>
+                    </div>
+                </div>
+                <!--<div class="row text-white mt-5">
+                    <p>Partners</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <picture>
+                            <source type="image/webp" srcset="/static/img/webp/events/a1ai.webp">
+                            <source type="image/png" srcset="/static/img/events/a1ai.png">
+                            <img src="/static/img/events/a1ai.png" alt="Partner A1AI" class="partner">
+                        </picture>
+                    </div>
+                    <div class="col-lg-4">
+                        <picture>
+                            <source type="image/webp" srcset="/static/img/webp/events/magic.webp">
+                            <source type="image/png" srcset="/static/img/events/magic.png">
+                            <img src="/static/img/events/magic.png" alt="Partner Magic Access" class="partner">
+                        </picture>
+                    </div>
+                    <div class="col-lg-4">
+                        <picture>
+                            <source type="image/webp" srcset="/static/img/webp/events/polax.webp">
+                            <source type="image/png" srcset="/static/img/events/polax.png">
+                            <img src="/static/img/events/polax.png" alt="Partner Polax Digital" class="partner">
+                        </picture>
+                    </div>
+                </div>-->
+
+                <div class="row footer mt-4 pt-4">
+                    <div class="row">
+                        <div class="col">
+                            <p class="mb-3">&copy; Trust3.0 2023. All rights reserved.</p>
+                        </div>
+                        <div class="col text-end mb-3">
+                            <p class="mb-0">Registered Charity Number 1203317</p>
+                            <p class="mb-0">75 Shelton St, London WC2H 9JQ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
