@@ -424,6 +424,16 @@ li::marker {
 .pillar-post#ownership li::marker {
   color: #26BDE2;
 }
+.privacy ol, .privacy li::marker {
+  all: unset;
+  list-style-type: upper-alpha;
+}
+.privacy li {
+  margin-left: 2rem;
+}
+.indent {
+  margin-left: 2rem;
+}
 
 /* Animations */
 .animate-reveal-x {
