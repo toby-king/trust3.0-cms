@@ -10,6 +10,10 @@ thumbnail: /static/img/2024.png
 
 Along with five leading digital experts we aim to highlight some of the biggest challenges in privacy for the coming year. We cover everything from cookies and digital fingerprinting to AI, LLM’s and much more.
 
+
+
+#### W﻿ATCH FULL [WEBINAR HERE](https://www.youtube.com/watch?v=9NBuGubtosM&ab_channel=Trust3.0)
+
 ## Trust 3.0
 
 Trust 3.0 exists to ensure human-centred thinking is at the core of business decision-making where data is a consideration. And, to upskill the public to drive better standards of data literacy.
@@ -45,8 +49,6 @@ A French corporate lawyer and founder of Data Rainbow, enthusiastic about everyt
 
 ## What in your opinion are the biggest challenges for digital privacy in 2024?
 
-
-
 #### Augustine - even more invasive targeting mechanisms
 
 We all know that cookies are going away and to be more precise about that, it's third-party cookies going away. So websites like the New York Times, if you're just visiting the site, New York Times can still set a cookie so that you can remain logged in, for example.
@@ -56,8 +58,6 @@ I'm seeing that even though third-party cookies are going away this year, the ad
 They will be using even more invasive data collection practices, what we typically call fingerprints. So fingerprints are the collection of all the different JavaScript parameters that pertain to your browser. 
 
 So combined with an IP address and the version of the browser, the screen resolution, and the list of plugins, they can still relatively uniquely track the person. 
-
-
 
 #### Arielle - Privacy concerns around use of sensitive data in ad-targeting
 
@@ -95,11 +95,7 @@ It is going to be interesting to follow the course of data brokers. The whole in
 
 And yes, litigation, I've been following article 82, GDPR on non-material damage, civil compensation. I'm still waiting and I can't understand why nothing has been happening in that area yet. We see data breaches, and we know that data breaches sometimes just happen, but when the data controller is responsible and liable, there should be some kind of compensation. 
 
-
-
 ## Is the cookieless future good or bad?
-
-
 
 #### Augustine - Ad tech companies & agencies will continue to sell BS…
 
@@ -137,8 +133,6 @@ I expect that the inside the large corporation like Google and Facebook and the 
 
 You don't use maps for the same reason you use YouTube or you use the search engine and the AI stuff that is coming. So I don't think this will be good for privacy on this site. So when you are inside the Google bubble, privacy will be worse because of that. 
 
-
-
 #### Tara - Device sharing drives huge inaccuracies
 
 The first assumption is that any electronic device would individually belong to one person. It has become the case more and more, but there are still people who share their devices. So sharing devices means sharing profile, but the profiling system doesn't care. It's one person.
@@ -173,8 +167,6 @@ The knock-on effects of that is that it is further putting publishers in a choke
 
 I worry about civic integrity, I worry about truth and how that sustained and in particular in the near term, I really, really wonder about the future of journalism. 
 
-
-
 #### Heidi - Proliferation of falsified information
 
 My biggest issues are going to be fraud and discrimination. If you've been accused of aiding genocide, I really desperately think you're going to have problems with discrimination in your tools too. 
@@ -185,9 +177,7 @@ Using complexity as cover and creating this moat is just going to enrich the fir
 
 I think that we need a public testing space, like a sandbox for these types of things. Technology used to ask for permission first before they deployed something and they were horribly embarrassed if it went wrong and that's gone out the window.
 
-
-
-#### Francois - Over-reliance on AI to solve mental health challanges
+#### Francois - Over-reliance on AI to solve mental health challenges
 
 One thing that worries me a lot about AI, and I would put it on level six, is using healthcare because we have a lack of specialists, especially in mental health, and people who are in a bad situation mentally will tend to use these kind of tools to reinsure themselves that they are not doing that bad. 
 
@@ -203,11 +193,7 @@ Chat GPT is a language model. I think it's been an abuse of language, calling it
 
 Alot of so-called AIs promise more they than can deliver, and I am waiting for the bubble to burst.
 
-
-
 ## And finally, the last word from the geek
-
-
 
 #### Francois - Homemade cookies and personal LLMs
 
