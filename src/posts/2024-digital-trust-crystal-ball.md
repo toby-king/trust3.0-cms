@@ -8,9 +8,9 @@ thumbnail: /static/img/2024.png
 ---
 ## Introduction
 
+
+
 Along with five leading digital experts we aim to highlight some of the biggest challenges in privacy for the coming year. We cover everything from cookies and digital fingerprinting to AI, LLM’s and much more.
-
-
 
 #### W﻿ATCH FULL [WEBINAR HERE](https://www.youtube.com/watch?v=9NBuGubtosM&ab_channel=Trust3.0)
 
