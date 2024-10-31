@@ -736,7 +736,7 @@ li::marker {
   .trustees .pres-cont {
     margin: 0;
   }
-  .btn-pres {
+  .btn-pres, .btn-pillar {
     width: 100%;
   }
 }
