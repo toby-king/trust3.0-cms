@@ -710,6 +710,9 @@ li::marker {
   .trustees .pres-cont h2 {
     font-size: 3rem;
   }
+  .trustees .graphic-wrapper {
+    max-width: 100vw;
+  }
 }
 @media screen and (max-width: 768px) {
   .header-content h1, .mission h1, .trustees .title h1 {
@@ -752,6 +755,14 @@ li::marker {
   }
   .header-content p, .content p, .mission p, .mission li {
       font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .trustees .title h1 {
+    font-size: 2.5rem;
+  }
+  .trustees .pres-cont h2 {
+    font-size: 1.8rem;
   }
 }
 @media screen and (max-width: 1552px) {
