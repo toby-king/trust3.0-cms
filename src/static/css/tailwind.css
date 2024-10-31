@@ -679,7 +679,7 @@ li::marker {
 
 /* Media Queries */
 @media screen and (max-width: 992px) {
-  .header-content h1 {
+  .header-content h1, .trustees .title h1 {
       font-size: 4rem;
   }
   .content #graphic {
@@ -707,9 +707,12 @@ li::marker {
   .graphic-wrapper {
     margin-top: -50vw;
   }
+  .trustees .pres-cont h2 {
+    font-size: 3rem;
+  }
 }
 @media screen and (max-width: 768px) {
-  .header-content h1, .mission h1 {
+  .header-content h1, .mission h1, .trustees .title h1 {
       font-size: 3rem;
   }
   .header-content p {
@@ -720,6 +723,21 @@ li::marker {
   }
   .footer-menu {
       max-width: 50vw;
+  }
+  .trustees .pres-cont h2 {
+    font-size: 2rem;
+  }
+  .trustees .title {
+    max-width: 100vw;
+  }
+  .trustees .col-lg-6 {
+    margin-top: 1rem;
+  }
+  .trustees .pres-cont {
+    margin: 0;
+  }
+  .btn-pres {
+    width: 100%;
   }
 }
 @media screen and (min-width: 576px) {
