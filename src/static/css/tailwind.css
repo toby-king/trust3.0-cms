@@ -742,6 +742,22 @@ li::marker {
   .btn-pres, .btn-pillar {
     width: 100%;
   }
+  .dde h2 {
+    font-size: 2rem;
+  }
+  .dde-content {
+    width: 100%;
+  }
+  .w-75 {
+    width: 100% !important;
+  }
+  .process-desc {
+    width: 100%;
+    font-size: 12px;
+  }
+  .process-content li, .process-content h3 {
+    font-size: 1.2rem;
+  }
 }
 @media screen and (min-width: 576px) {
   .menu-toggle {
