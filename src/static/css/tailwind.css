@@ -454,6 +454,9 @@ li::marker {
   margin: 0 auto;
   text-align: center;
 }
+.dde-content img {
+  width: 50%;
+}
 .dde h2 {
   font-size: 2.8rem;
 }
@@ -481,7 +484,7 @@ li::marker {
   text-transform: uppercase;
 }
 .process-content img {
-  width: 105%;
+  width: 50%;
 }
 .process-content .col-lg {
   border-right: 2px #afafaf dashed;
